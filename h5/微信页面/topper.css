@@ -1,0 +1,31 @@
+.topper{
+				height:15px;
+				width:100%;
+				
+				background-color: #212121;
+				display:flex;
+				justify-content: space-between;
+			}
+			.signal{
+				height:15px;
+				width:30px;
+				background-image: url(../img/photo/moments-portrait/微信图片_20170730153214.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.electric{
+				height:15px;
+				width:35px;
+				background-image: url(../img/photo/moments-portrait/微信图片_20170730153219.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.time{
+				height:10px;
+				color:#FFFFFF;
+				line-height: 10px;
+				font-size: x-small;
+				align-content: center;
+			}

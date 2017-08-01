@@ -1,0 +1,231 @@
+html,body{
+				height:100%;
+				width:100%;
+			}
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			a {
+				color: white;
+				font-family: "微软雅黑";
+				line-height: 30px;
+			}
+			
+			#container {
+				height: 100%;
+				width: 100%;
+				box-shadow: 0px 0px 10px gray;
+				margin: 0 auto;
+				display: flex;
+				flex-flow: column;
+				justify-content: space-between;
+				position:fixed;
+			}
+			
+			.top {
+				height: 30px;
+				width: 100%;
+				background-color: #212121;
+				color: #white;
+				text-indent: 5px;
+				display: flex;
+				justify-content: space-between;
+				flex-flow:row nowrap;
+				
+			}
+			.ps{
+				height:30px;
+				width:80px;
+				display:flex;
+				flex-flow: row;
+			}
+			.plus {
+				height: 30px;
+				width: 40px;
+				background: url(../img/images/plus.png);
+	
+			
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.plus:hover{
+				transform: scale(1.1);
+			}
+			
+			.search {
+				height: 30px;
+				width: 40px;
+			 	
+			    background: url(../img/images/search.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.search:hover{
+				transform: scale(1.1);
+			}
+			.content:{
+				height:100%;
+				width:100%;
+				flex-grow: 1;
+				background-color: #808080;
+			}
+			::-webkit-scrollbar{
+				display: none;
+			}
+			.blank{
+				height:20px;
+				width:100%;
+				background-color: lavender;
+			}
+			.list1{
+				padding: 3px;
+				height:40px;
+				width:100%;
+				display: flex;
+				flex:row;
+				justify-content: space-between;
+				
+			}
+			.list{
+				padding: 3px;
+				height:40px;
+				width:100%;
+				display: flex;
+				flex:row;
+				justify-content: space-between;
+				
+			}
+			.list:hover{
+				background-color: #E0E0E0;
+			}
+			.list1:hover{
+				background-color: #E0E0E0;
+			}
+			.lf{
+				height:40px;
+				width:110px;
+			
+				display:flex;
+				flex-flow: row;
+				
+			}
+			.picl{
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/185379247917032112.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.word{
+				height:40px;
+				width:70px;
+				text-align: center;
+				line-height: 40px;
+			}
+			.rg1{
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/107396361461494185.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.pic2{
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/353435672582549737.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.pic3{
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/872865381200966065.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.pic4{
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/85786775750287044.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.pic5{
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/238905892191976341.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.pic6{
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/226143613115153535.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.pic7{
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/895014966707967401.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.bottom{
+				height:40px;
+				width:100%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-around;
+				position: absolute;
+				bottom: 0px;
+			}
+			.left{
+				height:40px;
+				width:35px;
+				background-image: url(../img/photo/moments-portrait/518233841488427445.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.ml{
+				height:40px;
+				width:35px;
+				background-image: url(../img/images/微信图片_20170730142457.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.mr{
+				height:40px;
+				width:35px;
+				background-image: url(../img/photo/moments-portrait/871399520186358872.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.right{
+				height:39px;
+				width:35px;
+				background-image: url(../img/images/906729558671718091.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.large{
+				height:100px;
+				width:100%;
+			}

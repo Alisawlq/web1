@@ -1,0 +1,305 @@
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			a {
+				color: white;
+				font-family: "微软雅黑";
+				line-height: 30px;
+			}
+			
+			html,body{
+				height:100%;
+				width:100%;
+			}
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			.a1 {
+				color: white;
+				font-family: "微软雅黑";
+				line-height: 30px;
+			}
+			
+			#container {
+				height: 100%;
+				width: 100%;
+				box-shadow: 0px 0px 10px gray;
+				margin: 0 auto;
+				display: flex;
+				flex-flow: column;
+				justify-content: space-between;
+				position:fixed;
+			}
+			
+			.top {
+				height: 30px;
+				width: 100%;
+				background-color: #212121;
+				color: #white;
+				text-indent: 5px;
+				display: flex;
+				justify-content: space-between;
+				flex-flow:row nowrap;
+			}
+			.ps{
+				height:30px;
+				width:80px;
+				display:flex;
+				flex-flow: row;
+			}
+			.plus {
+				height: 30px;
+				width: 40px;
+				background: url(../img/images/plus.png);
+	
+			
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.plus:hover{
+				transform: scale(1.1);
+			}
+			
+			.search {
+				height: 30px;
+				width: 40px;
+			 	
+			    background: url(../img/images/search.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.search:hover{
+				transform: scale(1.1);
+			}
+			.c{
+				height: 100%;
+				width: 100%;
+				background-color: #FAFAFA;
+				display:flex;
+			}
+			.n {
+				height: 100%;
+				width: 90%;
+				background-color: #FAFAFA;
+				overflow-y: scroll;
+				flex-grow: 1;
+			}
+			::-webkit-scrollbar {
+				display: none;
+			}
+			.n1 {
+				height: 49px;
+				width: 99%;
+				border-bottom: 1px solid gray;
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-between;
+			}
+			
+			.n1:hover {
+				background-color: #E8EAF6;
+			}
+			
+			.pic1 {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/810615570284632189.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.con1 {
+				padding: 3px;
+				height: 42px;
+				width: 98%;
+				font-family: "微软雅黑";
+				line-height:42px;
+				font-size:large;
+			}
+			
+			
+			
+			.pic2 {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/901931745264750257.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic3{
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/10146011098240952.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic4 {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/moments-portrait/362309963901029104.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic5 {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l1.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic6 {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l10.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic7 {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l12.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			
+			.pic8{
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l7.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic9 {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l14.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic10  {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l2.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.con10 {
+				padding: 3px;
+				height: 42px;
+				width: 223px;
+				float: right;
+			}
+			
+			
+			.pic11  {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l4.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.pic12  {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l5.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			
+			.pic13  {
+				margin: 5px;
+				height: 40px;
+				width: 40px;
+				background: url(../img/photo/l3.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.r{
+				height:100%;
+				width:2%;
+				align-items: center;
+				text-align: center;
+				display: flex;
+				flex-flow: column;
+			}
+			.bottom{
+				height:40px;
+				width:100%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-around;
+			}
+			.left{
+				height:40px;
+				width:35px;
+				background-image: url(../img/photo/moments-portrait/518233841488427445.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.ml{
+				height:40px;
+				width:35px;
+				background-image: url(../img/photo/moments-portrait/587604565867874774.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.mr{
+				height:40px;
+				width:35px;
+				background-image: url(../img/images/微信图片_20170730142411.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.right{
+				height:39px;
+				width:35px;
+				background-image: url(../img/images/906729558671718091.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
